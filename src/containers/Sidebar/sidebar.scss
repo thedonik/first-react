@@ -1,0 +1,46 @@
+.sidebar {
+    background: #363740;
+    min-height: 100vh;
+    min-width: 20vw;
+    // .sidebar-btn{
+        
+        // }
+        .logo{
+            padding: 41px 43px 63px 72px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 19px;
+            line-height: 24px;
+            letter-spacing: 0.4px;
+            color: #A4A6B3;
+            opacity: 0.7;
+        }
+        
+        
+        .top-btn{
+            padding-bottom: 34px;
+            border-bottom: 1px solid #a4a6b3;
+        }
+        
+        .bottom-btn{
+            padding-top: 34px;
+        }
+        
+        
+        
+        
+        
+        
+        .btn {
+            width: 100%;
+            background-color: transparent;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0.2px;
+            color: #a4a6b3;
+            border: none;
+        }
+    }
+    
