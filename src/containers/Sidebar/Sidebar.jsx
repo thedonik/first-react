@@ -1,14 +1,17 @@
 import SidebarBtn from "../../components/SidebarBtn/SidebarBtn"
 import "./sidebar.scss"
 import { Chart, Settings, Agents, Articles, Tickets, Ideas, Contacts, Subscription } from "../../assets/icons/Icon"
-import SidebarLogo from "../../components/SidebarLogo/SidebarLogo"
+import Sitelog from "../../assets/images/logo.svg"
 
-const SideBar = () => {
+
+const SideBar = () => {  
+
     return (
         <div className="sidebar">
-        <div className="logo">
-        <SidebarLogo/>
-        </div>
+            <div className="logo-holder">
+                <img src={Sitelog} alt="logo" />
+                <span className="sitebar-text">Dashboard Kit</span>
+            </div>
         
         <div className="sidebar-btn">
         <div className="top-btn">

@@ -1,3 +1,64 @@
 .main-section{
     padding: 35px;
+    min-height: 100vh;
+
+    
+    
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    .page-name{
+        margin-right: auto;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: 0.3px;
+        color: #252733;
+    }
+    
+    .header-btn{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-right: 1px solid #DFE0EB;
+        margin-right: 33px;
+        
+        
+        
+        .search{
+            margin-right: 25px;
+        }
+        
+        .notification{
+            margin-right: 33px;
+        }
+    }
+    
+    
+    .header-profile{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .header-name{
+            margin-right: 15px;
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: right;
+            letter-spacing: 0.2px;
+            color: #252733;
+        }
+    }
+    
+    
+    
+    
 }
